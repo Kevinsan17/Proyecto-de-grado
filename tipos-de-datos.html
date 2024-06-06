@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Wall-e</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="página.html"><img src="imagenes/logo empresa.jpg" alt="imglogo" class="imglogo">Robotkids</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="acercade.html">Acerca de</a></li>
+          <li><a href="educación.html">Educación</a></li>
+          <li><a href="hardware.html">Hardware</a></li>
+          <li><a href="sofware.html">Software</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+        <div class="section__container_sobre">
+            <div class="content1">
+                <h1>Tipos de datos</h1>
+                <p class="description">En programación, un <strong>tipo de dato</strong> es la clasificación de un dato según sus características. Puede tratarse de una cadena, de un texto, de números, etc.</p>
+                <p class="description">¡Para entender un poco mejor esto, puedes mirar el siguiente video!</p>
+                <div id="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UUxSQ-rCeXs?si=CYsWs7PafAwGewpL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p class="description">Cuando construyes un programa, la materia prima que necesitas son los datos. Si pudieras ver muy de cerca la ejecución de dicho programa, podrías reconocer que, básicamente, lo que se hace es modificar, crear y leer datos.</p>
+                <p class="description">
+                    Entre los tipos de datos y valores se encuentran:</p>
+                <ol class="lista">
+                  <li>Numéricos (int): incluyen números positivos, negativos; cifras decimales, naturales, etc.</li>
+                  <li>Texto (string): letras, caracteres, símbolos que representan otros idiomas.</li>
+                  <li>Booleanos (boolean): que son fundamentales para establecer condiciones de verdadero y falso.</li>
+                  <li>Listas (array): para almacenar múltiples elementos de un mismo tipo.</li>
+                </ol>
+                <h3 style="margin-top: 15px;">Líneas de código:</h3>
+                <img src="imagenes/Arduino1.png" alt="código" style="border-radius: 5px; max-width: 800px;">
+                <textarea class="code-block" placeholder="Inserta tu código aquí..." style="height: 150px;">
+int numero = 1;
+String letras = "A";
+boolean verdadero = true;
+boolean falso = false;
+char arreglos[] = {'P', 'r', 'u', 'e', 'b', 'a'};  </textarea>
+                <div class="pie-pagina">
+                  <a href="programación.html">⬅ Anterior</a>
+                  <a href="operadores.html">Siguiente ⮕</a>
+                </div>
+            </div>  
+        </div>
+    </section>
+  </body>
+</html>
