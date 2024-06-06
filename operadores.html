@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Wall-e</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="index.html"><img src="imagenes/logo empresa.jpg" alt="imglogo" class="imglogo">Robotkids</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="acercade.html">Acerca de</a></li>
+          <li><a href="educación.html">Educación</a></li>
+          <li><a href="hardware.html">Hardware</a></li>
+          <li><a href="sofware.html">Software</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+        <div class="section__container_sobre">
+            <div class="content1">
+                <h1>Operadores</h1>
+                <p class="description">Los «operadores» son símbolos que se usan para especificarle a la máquina el tipo de cálculo o acción que esta debe hacer con los datos que se le indican. </p>
+                <h2>Operadores lógicos o booleanos</h2>
+                <p class="description">Los <strong>operadores booleanos</strong> se utilizan para conectar conceptos entre sí, con el fin de comprobar su veracidad dentro de un enunciado. </p>
+                <div id="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aJ-tdYeJTxU?si=epbcPLNavHrKdByG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <h3 style="margin-bottom: 15px;">Tipos de operadores lógicos</h3>
+                <ol class="lista" style="margin-bottom: 20px;">
+                    <li><strong>AND</strong> <br>Empleado para asociar dos términos o frases, validando que ambos valores booleanos sean verdaderos.</li>
+                    <li><strong>OR</strong> <br>Asocia dos términos o frases, validando que al menos uno de los dos valores sea verdadero.</li>
+                    <li><strong>NOT</strong> <br>Ejecuta bloques de código cuando una condición es falsa.</li>
+                </ol>
+                <h3 style="margin-top: 15px;">Líneas de código:</h3>
+                <img src="imagenes/operadores lógicos.png" alt="código" style="border-radius: 5px; max-width: 800px;">
+                <textarea class="code-block" placeholder="Inserta tu código aquí..." style="height: 230px;">
+if(x<5 && y>10){
+    //Escribir instrucciones a realizar
+}
+if(x<5 || y>10){
+    //Escribir instrucciones a realizar
+}
+if(x != 5){
+    //Escribir instrucciones a realizar
+}               </textarea>
+                <h2>Operadores aritméticos</h2>
+                <p class="description">Desde su nombre, los operadores aritméticos indican que se relacionan a las operaciones matemáticas que usan con frecuencia y son de común conocimiento.</p>
+                <div id="video">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/TmUt0qPXjcQ?si=gsnFZJX5a0Tg7ETL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+              </div>
+              <p class="description">Un operador aritmético trabaja en el código manipulando los datos numéricos que puedan presentarse. Es así como se evidencian dos tipos: binarios y unitarios.</p>  
+              <h3 style="margin-bottom: 50px;">Tipos de operadores aritméticos</h3>
+              <ol class="lista" style="margin-bottom: 20px;">
+                <li><strong>Suma (+):</strong> <br>suma dos valores. Este operador está ligado al operador de concatenación, en donde se suman dos cadenas de valores.</li>
+                <li><strong>Resta (-):</strong> <br>identifica la diferencia entre dos valores. Este operador también tiene la facultad de indicar un valor que es negativo o la negación en una condición.</li>
+                <li><strong>Multiplicación (*):</strong> <br>multiplica dos valores.</li>
+                <li><strong>División (/):</strong> <br>en una operación de dos valores, divide el primero entre el segundo.</li>
+                <li><strong>Asignación (=):</strong> <br>Asigna el valor del lado derecho al izquierdo</li>
+            </ol>
+            <h3 style="margin-top: 15px;">Líneas de código:</h3>
+                <img src="imagenes/operadores aritmeticos.png" alt="código" style="border-radius: 5px; max-width: 800px;">
+                <textarea class="code-block" placeholder="Inserta tu código aquí...">
+int numero1 = 2; // se le asigna el numero "2" a la variable "numero1"
+int numero2 = 4;
+                  
+int suma = numero1 + numero2;
+int resta = numero1 - numero2;
+int multiplicacion = numero1 * numero2;
+float division = numero1 / numero2;  </textarea>
+
+            <h2>Operadores de comparación</h2>
+            <p class="description">Los operadores de comparación, tal como su nombre lo indica, comparan los valores de una condición y las identifican en dos estados: falsa o verdadera.</p>
+            <div id="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YNoBAnrEScI?si=ZKg1QmU2RUTY6OjG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+            </div> 
+<h3 style="margin-bottom: 50px;">Tipos de operadores de comparación</h3>
+<ol class="lista" style="margin-bottom: 20px;">
+<li><strong>Igualdad:</strong> <br>representado con el símbolo (==) en la mayoría de lenguajes. Compara dos valores y valida que los números sean iguales</li>
+<li><strong>Desigualdad:</strong> <br>es inverso al de igualdad.</li>
+<li><strong>Mayor que:</strong> <br>compara dos valores y valida que el número de la izquierda sea mayor que el de la derecha.</li>
+<li><strong>Menor que:</strong> <br>determina si el valor de la izquierda es menor que el de la derecha.</li>
+<li><strong>Mayor o Igual que:</strong> <br>valida si un valor es mayor o igual a otro. Menor o igual que: valida si un valor es menor o igual que otro.</li>
+</ol>
+<h3 style="margin-top: 15px;">Líneas de código:</h3>
+<img src="imagenes/operadores de comparación.png" alt="código" style="border-radius: 5px; max-width: 800px;">
+<textarea class="code-block" placeholder="Inserta tu código aquí..." style="height: 380px;">
+if(x > 5){ //Si x es mayor que 5
+  //Escribir instrucciones a realizar
+}
+if(x < 5){ //Si x es menor que 5
+  //Escribir instrucciones a realizar
+}
+if(x == 5){ //Si x es igual que 5
+  //Escribir instrucciones a realizar
+}
+if(x != 5){ //Si x no es igual que 5
+  //Escribir instrucciones a realizar
+}
+if(x >= 5){ //Si x es mayor o igual que 5
+  //Escribir instrucciones a realizar
+}</textarea>
+
+                <div class="pie-pagina">
+                  <a href="tipos-de-datos.html">⬅ Anterior</a>
+                  <a href="variables.html">Siguiente ⮕</a>
+                </div>
+            </div>  
+        </div>
+    </section>
+  </body>
+</html>
